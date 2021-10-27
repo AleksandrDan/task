@@ -11,7 +11,7 @@ class _HomeScreenState extends State<HomeScreen> {
   int rand() {
     List<int> values = List.generate(256, (_) => _);
     values.shuffle();
-    return values[0];
+    return values[1];
   }
 
   void onTap() {
